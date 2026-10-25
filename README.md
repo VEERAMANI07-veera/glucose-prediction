@@ -2,13 +2,16 @@
 
 > A production-ready, full-stack ML web application for glucose risk stratification using the Framingham Heart Study dataset.
 
-![Python](https://img.shields.io/badge/Python-3.11-blue) ![Flask](https://img.shields.io/badge/Flask-3.0-green) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.4-orange) ![SHAP](https://img.shields.io/badge/SHAP-0.45-purple) ![License](https://img.shields.io/badge/License-MIT-yellow)
+![Python](https://img.shields.io/badge/Python-3.11-blue) ![Flask](https://img.shields.io/badge/Flask-3.0-green) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.4-orange) ![Render](https://img.shields.io/badge/Render-Live%20Demo-00d68f) ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+🌐 **Live URL:** [https://glucose-prediction-1.onrender.com](https://glucose-prediction-1.onrender.com)
 
 ---
 
 ## 🚀 Live Demo
 
-Open `GlucoPredict_App.html` directly in your browser — **no server required** for the frontend.
+- 🌐 **Live Web Application:** [https://glucose-prediction-1.onrender.com](https://glucose-prediction-1.onrender.com)
+- 💻 **Local Usage:** Open `GlucoPredict_App.html` directly in your browser — **no server required** for the standalone frontend.
 
 ---
 
