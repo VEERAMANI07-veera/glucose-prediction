@@ -5,7 +5,10 @@ from flask_cors import CORS
 from routes.api import api_blueprint
 
 def create_app():
-    app = Flask(__name__, template_folder='templates', static_folder='static')
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    template_dir = os.path.join(current_dir, 'templates')
+    static_dir = os.path.join(current_dir, 'static')
+    app = Flask(__name__, template_folder=template_dir, static_folder=static_dir)
     CORS(app)
     
     app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'glucopredict-secret')
